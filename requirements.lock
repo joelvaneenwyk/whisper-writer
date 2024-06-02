@@ -8,24 +8,169 @@
 #   with-sources: false
 #   generate-hashes: false
 
--e file:.
 aiohttp==3.8.4
-    # via whisper-writer
 aiosignal==1.3.1
     # via aiohttp
+annotated-types==0.7.0
+    # via pydantic
+anyio==4.4.0
+    # via httpx
+    # via openai
 async-timeout==4.0.3
     # via aiohttp
 attrs==23.2.0
     # via aiohttp
+audioplayer==0.6
+av==12.1.0
+    # via faster-whisper
+certifi==2024.2.2
+    # via httpcore
+    # via httpx
+    # via requests
+cffi==1.16.0
+    # via sounddevice
 charset-normalizer==3.3.2
     # via aiohttp
+    # via requests
+colorama==0.4.6
+    # via tqdm
+coloredlogs==15.0.1
+    # via onnxruntime
+ctranslate2==4.2.1
+    # via faster-whisper
+distro==1.9.0
+    # via openai
+easyprocess==1.1
+    # via pyscreenshot
+entrypoint2==1.1
+    # via pyscreenshot
+faster-whisper==1.0.2
+ffmpeg-python==0.2.0
+filelock==3.14.0
+    # via huggingface-hub
+    # via torch
+flatbuffers==24.3.25
+    # via onnxruntime
 frozenlist==1.4.1
     # via aiohttp
     # via aiosignal
+fsspec==2024.5.0
+    # via huggingface-hub
+    # via torch
+future==1.0.0
+    # via ffmpeg-python
+h11==0.14.0
+    # via httpcore
+httpcore==1.0.5
+    # via httpx
+httpx==0.27.0
+    # via openai
+huggingface-hub==0.23.2
+    # via faster-whisper
+    # via tokenizers
+humanfriendly==10.0
+    # via coloredlogs
 idna==3.7
+    # via anyio
+    # via httpx
+    # via requests
     # via yarl
+intel-openmp==2021.4.0
+    # via mkl
+jinja2==3.1.4
+    # via torch
+llvmlite==0.42.0
+    # via numba
+markupsafe==2.1.5
+    # via jinja2
+mkl==2021.4.0
+    # via torch
+more-itertools==10.2.0
+mouseinfo==0.1.3
+mpmath==1.3.0
+    # via sympy
+mss==9.0.1
+    # via pyscreenshot
 multidict==6.0.5
     # via aiohttp
     # via yarl
+networkx==3.3
+    # via torch
+numba==0.59.1
+numpy==1.26.4
+    # via ctranslate2
+    # via numba
+    # via onnxruntime
+onnxruntime==1.18.0
+    # via faster-whisper
+openai==1.30.5
+packaging==24.0
+    # via huggingface-hub
+    # via onnxruntime
+pillow==10.3.0
+    # via pyscreeze
+protobuf==5.27.0
+    # via onnxruntime
+pycparser==2.22
+    # via cffi
+pydantic==2.7.2
+    # via openai
+pydantic-core==2.18.3
+    # via pydantic
+pygetwindow==0.0.9
+pymsgbox==1.0.9
+pynput==1.7.7
+pyperclip==1.8.2
+    # via mouseinfo
+pyqt5==5.15.10
+pyqt5-qt5==5.15.2
+    # via pyqt5
+pyqt5-sip==12.13.0
+    # via pyqt5
+pyreadline3==3.4.1
+    # via humanfriendly
+pyrect==0.2.0
+    # via pygetwindow
+pyscreenshot==3.1
+pyscreeze==0.1.30
+python-dotenv==1.0.1
+pytweening==1.2.0
+pyyaml==6.0.1
+    # via ctranslate2
+    # via huggingface-hub
+regex==2024.5.15
+    # via tiktoken
+requests==2.32.3
+    # via huggingface-hub
+    # via tiktoken
+setuptools==70.0.0
+    # via ctranslate2
+six==1.16.0
+    # via pynput
+sniffio==1.3.1
+    # via anyio
+    # via httpx
+    # via openai
+sounddevice==0.4.7
+sympy==1.12.1
+    # via onnxruntime
+    # via torch
+tbb==2021.12.0
+    # via mkl
+tiktoken==0.7.0
+tokenizers==0.19.1
+    # via faster-whisper
+torch==2.3.0
+tqdm==4.66.4
+    # via huggingface-hub
+    # via openai
+typing-extensions==4.12.1
+    # via huggingface-hub
+    # via openai
+    # via pydantic
+    # via pydantic-core
+    # via torch
+urllib3==2.2.1
+    # via requests
 yarl==1.9.4
     # via aiohttp
