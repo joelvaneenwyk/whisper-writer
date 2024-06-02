@@ -1,0 +1,11 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions:
+  - name: cspell-whisper-writer-dictionary
+    path: ./.config/cspell-whisper-writer-dictionary.txt
+    addWords: true
+dictionaries:
+  - cspell-whisper-writer-dictionary
+words: []
+ignoreWords: []
+import: []
